@@ -38,9 +38,11 @@
         <div class="box-container">
             <% for(let i=0;i< 8; i++){%>
                 <div class="box">
-                    <img src="https://raw.githubusercontent.com/PhucNguyen1905/RestaurantPOS/main/images/<%= rows[i].image %>" alt="">
+                    <!-- <img src="https://raw.githubusercontent.com/PhucNguyen1905/RestaurantPOS/main/images/<%= rows[i].image %>" alt=""> -->
+                    <img src="/images/pngwing.com.png" alt="">
                     <h3>
-                        <%= rows[i].name %>
+                        <!-- <%= rows[i].name %> -->
+                        quiz <%= i %> 
                     </h3>
                     <a href="/quiz/<%= rows[i].id %>" class="btn">do quiz now</a>
                 </div>
